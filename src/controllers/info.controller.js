@@ -163,12 +163,12 @@ export const obtenerContactoInfo = async (req, res)=>{
 
         
         const { id_info } = req.params;
-        const { id_contacto } = req.params;
+        const { idIndormacion } = req.params;
         const verRela= await contacto.findAll({
 
             where: {
 
-                id_contacto:id_info,
+                idIndormacion:id_info,
 
             },
 

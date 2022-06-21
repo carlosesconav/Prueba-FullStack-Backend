@@ -12,10 +12,10 @@ const main = async function main() {
         await sequelize.sync({ force: false })
         await sequelize.authenticate();
         app.listen(4000);
-        console.log('srive esta vuelta', 4000);
+        console.log('Server is runnig in port:', 4000);
     } catch (error) {
 
-        console.error('Algo anda mal :v :', error);
+        console.error('Algo anda mal :( :', error);
 
 
     }

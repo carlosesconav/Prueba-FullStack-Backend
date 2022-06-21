@@ -1,12 +1,15 @@
 import { Router } from "express";
 import {
+
     crearInfos,
     getInfos,
     actualizarInfo,
     eliminarInfo,
     obtenerUno,
     obtenerContactoInfo
+
 } from '../controllers/info.controller.js';
+
 import cors from 'cors';
 const route = Router();
 

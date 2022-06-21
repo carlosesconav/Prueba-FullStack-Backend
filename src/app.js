@@ -1,6 +1,7 @@
 import express from 'express'
 import infoRoutes from './routes/info.route.js'
 import contactRoutes from './routes/contacto.route.js'
+import cors from 'cors'
 
 const app = express();
 
